@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FB17993239AB05E005FD25C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB17992239AB05E005FD25C /* AppDelegate.swift */; };
+		7FB17995239AB05E005FD25C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB17994239AB05E005FD25C /* SceneDelegate.swift */; };
+		7FB17997239AB05E005FD25C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB17996239AB05E005FD25C /* ContentView.swift */; };
+		7FB17999239AB060005FD25C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB17998239AB060005FD25C /* Assets.xcassets */; };
+		7FB1799C239AB060005FD25C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1799B239AB060005FD25C /* Preview Assets.xcassets */; };
+		7FB1799F239AB060005FD25C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB1799D239AB060005FD25C /* LaunchScreen.storyboard */; };
+		7FB179AA239AB061005FD25C /* Radar_Geofence_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179A9239AB061005FD25C /* Radar_Geofence_AppTests.swift */; };
+		7FB179B5239AB061005FD25C /* Radar_Geofence_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB179B4239AB061005FD25C /* Radar_Geofence_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FB179A6239AB061005FD25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB17987239AB05E005FD25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB1798E239AB05E005FD25C;
+			remoteInfo = Radar_Geofence_App;
+		};
+		7FB179B1239AB061005FD25C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FB17987239AB05E005FD25C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FB1798E239AB05E005FD25C;
+			remoteInfo = Radar_Geofence_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FB1798F239AB05E005FD25C /* Radar_Geofence_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radar_Geofence_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB17992239AB05E005FD25C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7FB17994239AB05E005FD25C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7FB17996239AB05E005FD25C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7FB17998239AB060005FD25C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7FB1799B239AB060005FD25C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7FB1799E239AB060005FD25C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7FB179A0239AB060005FD25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB179A5239AB061005FD25C /* Radar_Geofence_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Radar_Geofence_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB179A9239AB061005FD25C /* Radar_Geofence_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar_Geofence_AppTests.swift; sourceTree = "<group>"; };
+		7FB179AB239AB061005FD25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB179B0239AB061005FD25C /* Radar_Geofence_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Radar_Geofence_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB179B4239AB061005FD25C /* Radar_Geofence_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radar_Geofence_AppUITests.swift; sourceTree = "<group>"; };
+		7FB179B6239AB061005FD25C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB1798C239AB05E005FD25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179A2239AB061005FD25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179AD239AB061005FD25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FB17986239AB05E005FD25C = {
+			isa = PBXGroup;
+			children = (
+				7FB17991239AB05E005FD25C /* Radar_Geofence_App */,
+				7FB179A8239AB061005FD25C /* Radar_Geofence_AppTests */,
+				7FB179B3239AB061005FD25C /* Radar_Geofence_AppUITests */,
+				7FB17990239AB05E005FD25C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB17990239AB05E005FD25C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB1798F239AB05E005FD25C /* Radar_Geofence_App.app */,
+				7FB179A5239AB061005FD25C /* Radar_Geofence_AppTests.xctest */,
+				7FB179B0239AB061005FD25C /* Radar_Geofence_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB17991239AB05E005FD25C /* Radar_Geofence_App */ = {
+			isa = PBXGroup;
+			children = (
+				7FB17992239AB05E005FD25C /* AppDelegate.swift */,
+				7FB17994239AB05E005FD25C /* SceneDelegate.swift */,
+				7FB17996239AB05E005FD25C /* ContentView.swift */,
+				7FB17998239AB060005FD25C /* Assets.xcassets */,
+				7FB1799D239AB060005FD25C /* LaunchScreen.storyboard */,
+				7FB179A0239AB060005FD25C /* Info.plist */,
+				7FB1799A239AB060005FD25C /* Preview Content */,
+			);
+			path = Radar_Geofence_App;
+			sourceTree = "<group>";
+		};
+		7FB1799A239AB060005FD25C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7FB1799B239AB060005FD25C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7FB179A8239AB061005FD25C /* Radar_Geofence_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB179A9239AB061005FD25C /* Radar_Geofence_AppTests.swift */,
+				7FB179AB239AB061005FD25C /* Info.plist */,
+			);
+			path = Radar_Geofence_AppTests;
+			sourceTree = "<group>";
+		};
+		7FB179B3239AB061005FD25C /* Radar_Geofence_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FB179B4239AB061005FD25C /* Radar_Geofence_AppUITests.swift */,
+				7FB179B6239AB061005FD25C /* Info.plist */,
+			);
+			path = Radar_Geofence_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB1798E239AB05E005FD25C /* Radar_Geofence_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB179B9239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_App" */;
+			buildPhases = (
+				7FB1798B239AB05E005FD25C /* Sources */,
+				7FB1798C239AB05E005FD25C /* Frameworks */,
+				7FB1798D239AB05E005FD25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Radar_Geofence_App;
+			productName = Radar_Geofence_App;
+			productReference = 7FB1798F239AB05E005FD25C /* Radar_Geofence_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FB179A4239AB061005FD25C /* Radar_Geofence_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB179BC239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_AppTests" */;
+			buildPhases = (
+				7FB179A1239AB061005FD25C /* Sources */,
+				7FB179A2239AB061005FD25C /* Frameworks */,
+				7FB179A3239AB061005FD25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB179A7239AB061005FD25C /* PBXTargetDependency */,
+			);
+			name = Radar_Geofence_AppTests;
+			productName = Radar_Geofence_AppTests;
+			productReference = 7FB179A5239AB061005FD25C /* Radar_Geofence_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7FB179AF239AB061005FD25C /* Radar_Geofence_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB179BF239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_AppUITests" */;
+			buildPhases = (
+				7FB179AC239AB061005FD25C /* Sources */,
+				7FB179AD239AB061005FD25C /* Frameworks */,
+				7FB179AE239AB061005FD25C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FB179B2239AB061005FD25C /* PBXTargetDependency */,
+			);
+			name = Radar_Geofence_AppUITests;
+			productName = Radar_Geofence_AppUITests;
+			productReference = 7FB179B0239AB061005FD25C /* Radar_Geofence_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB17987239AB05E005FD25C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Eddie Salce";
+				TargetAttributes = {
+					7FB1798E239AB05E005FD25C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					7FB179A4239AB061005FD25C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7FB1798E239AB05E005FD25C;
+					};
+					7FB179AF239AB061005FD25C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 7FB1798E239AB05E005FD25C;
+					};
+				};
+			};
+			buildConfigurationList = 7FB1798A239AB05E005FD25C /* Build configuration list for PBXProject "Radar_Geofence_App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FB17986239AB05E005FD25C;
+			productRefGroup = 7FB17990239AB05E005FD25C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB1798E239AB05E005FD25C /* Radar_Geofence_App */,
+				7FB179A4239AB061005FD25C /* Radar_Geofence_AppTests */,
+				7FB179AF239AB061005FD25C /* Radar_Geofence_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB1798D239AB05E005FD25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB1799F239AB060005FD25C /* LaunchScreen.storyboard in Resources */,
+				7FB1799C239AB060005FD25C /* Preview Assets.xcassets in Resources */,
+				7FB17999239AB060005FD25C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179A3239AB061005FD25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179AE239AB061005FD25C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB1798B239AB05E005FD25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB17993239AB05E005FD25C /* AppDelegate.swift in Sources */,
+				7FB17995239AB05E005FD25C /* SceneDelegate.swift in Sources */,
+				7FB17997239AB05E005FD25C /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179A1239AB061005FD25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB179AA239AB061005FD25C /* Radar_Geofence_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB179AC239AB061005FD25C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB179B5239AB061005FD25C /* Radar_Geofence_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FB179A7239AB061005FD25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB1798E239AB05E005FD25C /* Radar_Geofence_App */;
+			targetProxy = 7FB179A6239AB061005FD25C /* PBXContainerItemProxy */;
+		};
+		7FB179B2239AB061005FD25C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FB1798E239AB05E005FD25C /* Radar_Geofence_App */;
+			targetProxy = 7FB179B1239AB061005FD25C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FB1799D239AB060005FD25C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB1799E239AB060005FD25C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB179B7239AB061005FD25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7FB179B8239AB061005FD25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB179BA239AB061005FD25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Radar_Geofence_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Radar_Geofence_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7FB179BB239AB061005FD25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Radar_Geofence_App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Radar_Geofence_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7FB179BD239AB061005FD25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Radar_Geofence_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radar_Geofence_App.app/Radar_Geofence_App";
+			};
+			name = Debug;
+		};
+		7FB179BE239AB061005FD25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Radar_Geofence_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Radar_Geofence_App.app/Radar_Geofence_App";
+			};
+			name = Release;
+		};
+		7FB179C0239AB061005FD25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Radar_Geofence_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Radar_Geofence_App;
+			};
+			name = Debug;
+		};
+		7FB179C1239AB061005FD25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Radar_Geofence_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MLH.Radar-Geofence-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Radar_Geofence_App;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB1798A239AB05E005FD25C /* Build configuration list for PBXProject "Radar_Geofence_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB179B7239AB061005FD25C /* Debug */,
+				7FB179B8239AB061005FD25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB179B9239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB179BA239AB061005FD25C /* Debug */,
+				7FB179BB239AB061005FD25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB179BC239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB179BD239AB061005FD25C /* Debug */,
+				7FB179BE239AB061005FD25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB179BF239AB061005FD25C /* Build configuration list for PBXNativeTarget "Radar_Geofence_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB179C0239AB061005FD25C /* Debug */,
+				7FB179C1239AB061005FD25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB17987239AB05E005FD25C /* Project object */;
+}
